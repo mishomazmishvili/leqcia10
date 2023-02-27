@@ -59,7 +59,7 @@ for ( let i = 0; i <movietheater.movielanguages.length; i ++) {
     document.write(movietheater.movielanguages[i] + "<br/>" )
 }
 
-document.write("<h2> Main Movie </h2>")
+document.write("<h2> Main Movies </h2>")
 
 for ( let i = 0; i <movietheater.mainmovies.length; i ++ ) {
     document.write(movietheater.mainmovies[i].moviename + "<br/>" )
